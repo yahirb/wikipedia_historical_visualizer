@@ -1,0 +1,39 @@
+[2018-03-19T21:36:34,996][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-03-19T21:36:35,160][INFO ][o.e.e.NodeEnvironment    ] [yassoVN] using [1] data paths, mounts [[/home/ugrads (filer.cs.tamu.edu:/export/home-ugrads)]], net usable_space [71.7gb], net total_space [1.8tb], types [nfs4]
+[2018-03-19T21:36:35,161][INFO ][o.e.e.NodeEnvironment    ] [yassoVN] heap size [989.8mb], compressed ordinary object pointers [true]
+[2018-03-19T21:36:35,177][INFO ][o.e.n.Node               ] node name [yassoVN] derived from node ID [yassoVNoTmOmFy1n5pLVdA]; set [node.name] to override
+[2018-03-19T21:36:35,178][INFO ][o.e.n.Node               ] version[6.2.2], pid[43741], build[10b1edd/2018-02-16T19:01:30.685723Z], OS[Linux/3.10.0-693.21.1.el7.x86_64/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_161/25.161-b14]
+[2018-03-19T21:36:35,178][INFO ][o.e.n.Node               ] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/tmp/elasticsearch.DUsPdMJv, -XX:+HeapDumpOnOutOfMemoryError, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/home/ugrads/y/yahirb/Spring2018/CSCE470/wikipedia_historical_visualizer/elasticsearch-6.2.2, -Des.path.conf=/home/ugrads/y/yahirb/Spring2018/CSCE470/wikipedia_historical_visualizer/elasticsearch-6.2.2/config]
+[2018-03-19T21:36:37,098][INFO ][o.e.p.PluginsService     ] [yassoVN] loaded module [aggs-matrix-stats]
+[2018-03-19T21:36:37,099][INFO ][o.e.p.PluginsService     ] [yassoVN] loaded module [analysis-common]
+[2018-03-19T21:36:37,099][INFO ][o.e.p.PluginsService     ] [yassoVN] loaded module [ingest-common]
+[2018-03-19T21:36:37,099][INFO ][o.e.p.PluginsService     ] [yassoVN] loaded module [lang-expression]
+[2018-03-19T21:36:37,099][INFO ][o.e.p.PluginsService     ] [yassoVN] loaded module [lang-mustache]
+[2018-03-19T21:36:37,099][INFO ][o.e.p.PluginsService     ] [yassoVN] loaded module [lang-painless]
+[2018-03-19T21:36:37,099][INFO ][o.e.p.PluginsService     ] [yassoVN] loaded module [mapper-extras]
+[2018-03-19T21:36:37,100][INFO ][o.e.p.PluginsService     ] [yassoVN] loaded module [parent-join]
+[2018-03-19T21:36:37,100][INFO ][o.e.p.PluginsService     ] [yassoVN] loaded module [percolator]
+[2018-03-19T21:36:37,100][INFO ][o.e.p.PluginsService     ] [yassoVN] loaded module [rank-eval]
+[2018-03-19T21:36:37,100][INFO ][o.e.p.PluginsService     ] [yassoVN] loaded module [reindex]
+[2018-03-19T21:36:37,100][INFO ][o.e.p.PluginsService     ] [yassoVN] loaded module [repository-url]
+[2018-03-19T21:36:37,100][INFO ][o.e.p.PluginsService     ] [yassoVN] loaded module [transport-netty4]
+[2018-03-19T21:36:37,101][INFO ][o.e.p.PluginsService     ] [yassoVN] loaded module [tribe]
+[2018-03-19T21:36:37,101][INFO ][o.e.p.PluginsService     ] [yassoVN] no plugins loaded
+[2018-03-19T21:36:39,571][INFO ][o.e.d.DiscoveryModule    ] [yassoVN] using discovery type [zen]
+[2018-03-19T21:36:40,453][INFO ][o.e.n.Node               ] initialized
+[2018-03-19T21:36:40,453][INFO ][o.e.n.Node               ] [yassoVN] starting ...
+[2018-03-19T21:36:40,748][INFO ][o.e.t.TransportService   ] [yassoVN] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-03-19T21:36:40,772][WARN ][o.e.b.BootstrapChecks    ] [yassoVN] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+[2018-03-19T21:36:40,773][WARN ][o.e.b.BootstrapChecks    ] [yassoVN] max number of threads [100] for user [yahirb] is too low, increase to at least [4096]
+[2018-03-19T21:36:40,773][WARN ][o.e.b.BootstrapChecks    ] [yassoVN] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-03-19T21:36:43,864][INFO ][o.e.c.s.MasterService    ] [yassoVN] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {yassoVN}{yassoVNoTmOmFy1n5pLVdA}{IKoGoMoaTlu6AWcXu1s7Rg}{127.0.0.1}{127.0.0.1:9300}
+[2018-03-19T21:36:43,875][INFO ][o.e.c.s.ClusterApplierService] [yassoVN] new_master {yassoVN}{yassoVNoTmOmFy1n5pLVdA}{IKoGoMoaTlu6AWcXu1s7Rg}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {yassoVN}{yassoVNoTmOmFy1n5pLVdA}{IKoGoMoaTlu6AWcXu1s7Rg}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2018-03-19T21:36:43,891][ERROR][o.e.b.ElasticsearchUncaughtExceptionHandler] [] fatal error in thread [elasticsearch[yassoVN][clusterApplierService#updateTask][T#1]], exiting
+java.lang.OutOfMemoryError: unable to create new native thread
+	at java.lang.Thread.start0(Native Method) ~[?:1.8.0_161]
+	at java.lang.Thread.start(Thread.java:717) ~[?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.addWorker(ThreadPoolExecutor.java:957) ~[?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.processWorkerExit(ThreadPoolExecutor.java:1025) ~[?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167) ~[?:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_161]
